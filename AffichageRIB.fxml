@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="842.0" minWidth="10.0" prefWidth="841.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="442.0" minWidth="10.0" prefWidth="59.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="154.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="375.0" minHeight="10.0" prefHeight="375.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="175.0" minHeight="10.0" prefHeight="150.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="145.0" text="NOM" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="200.0" left="300.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="30.0" prefWidth="184.0" text="*****" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="200.0" left="800.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="220.0" text="PRENOM" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="300.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="23.0" prefWidth="290.0" text="ADRESSE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="300.0" top="100.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="305.0" text="*****" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="800.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="243.0" text="*****" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="800" top="100.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="35.0" prefWidth="172.0" text="RIB" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="325.0" top="200.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="30.0" prefWidth="217.0" text="******" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="800.0" top="200.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="23.0" prefWidth="172.0" text="IBAN" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="325.0" top="300.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="23.0" prefWidth="154.0" text="BIC" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="325.0" top="400.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="23.0" prefWidth="230.0" text="*******" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="800.0" top="300.0" />
+               </GridPane.margin>
+            </Label>
+            <Label prefHeight="600.0" prefWidth="966.0" text="******" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="800.0" top="400.0" />
+               </GridPane.margin>
+            </Label>
+            <Button mnemonicParsing="false" text="RETOUR" GridPane.rowIndex="1">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="50.0" top="500.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="272.0" text="IMPRIMER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="300.0" top="500.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Label text="AFFICHAGE RIB" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Bold black" size="40.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="100.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+</BorderPane>
