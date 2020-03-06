@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bpRetrait" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RetraitController">
+   <left>
+      <VBox prefHeight="686.0" prefWidth="147.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click20" prefHeight="54.0" prefWidth="100.0" text="20 € ">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#on50" prefHeight="54.0" prefWidth="100.0" text="50 €">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="150.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#on70" prefHeight="54.0" prefWidth="100.0" text="70 €">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="150.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="retour" mnemonicParsing="false" onAction="#RetourClicked" prefHeight="54.0" prefWidth="139.0" text="RETOUR">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="150.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="388.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#on90" prefHeight="50.0" prefWidth="150.0" text="90 € ">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#on100" prefHeight="50.0" prefWidth="150.0" text="100 €">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="150.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#on150" prefHeight="50.0" prefWidth="150.0" text="150 €">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="150.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOther" prefHeight="50.0" prefWidth="2000.0" text="Autre montant">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="-80.0" top="150.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </right>
+</BorderPane>

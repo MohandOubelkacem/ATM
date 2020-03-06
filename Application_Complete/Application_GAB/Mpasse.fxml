@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../../../../Downloads/application%20(1).css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MdpController">
+   <children>
+      <PasswordField fx:id="mdp" alignment="CENTER" layoutX="277.0" layoutY="275.0" prefHeight="46.0" prefWidth="212.0" promptText="****" />
+      <Button fx:id="retour" layoutX="49.0" layoutY="408.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="104.0" text="Retour" />
+      <Button fx:id="valider" layoutX="607.0" layoutY="411.0" mnemonicParsing="false" onAction="#valider" prefHeight="44.0" prefWidth="95.0" text="Valider" />
+      <Label alignment="CENTER" layoutX="49.0" layoutY="65.0" prefHeight="73.0" prefWidth="653.0" stylesheets="@../../../../../Downloads/application%20(1).css" text="Insérer votre mot de passe" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Label>
+      <Label fx:id="message" layoutX="208.0" layoutY="183.0" prefHeight="73.0" prefWidth="330.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+.container {         /* cnetrer le formulaire sur la page et la mettre sur fond gris */ 
+    width: 60%;
+  margin: 60px auto;
+  background: #efefef;
+  padding: 60px 120px 80px 120px;
+  text-align: center;
+  
+} 
+ /*.form-group {
+    text-align: center;
+} */ 

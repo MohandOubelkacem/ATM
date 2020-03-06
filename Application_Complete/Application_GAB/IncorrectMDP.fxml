@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="exit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.IncorrectMDPController">
+   <top>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="864.0" text="Vous avez épuisez le nombre" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="150.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="809.0" text="de tentatives autorisées" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="100.0" />
+         </BorderPane.margin>
+      </Label>
+   </center>
+   <bottom>
+      <Label fx:id="message" text="Votre carte est bloquée !" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="120.0" />
+         </BorderPane.margin>
+      </Label>
+   </bottom>
+</BorderPane>

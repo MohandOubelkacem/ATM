@@ -1,0 +1,74 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.root{
+	-fx-background-image : url("image.jpg");
+	
+	-fx-font-family :"Arial White";
+		
+		-fx-text-alignment: centre;
+	}
+	.label {
+			-fx-font-family: "Arial ";
+			-fx-text-fill:	gold ;
+			-fx-font-size: 50 px;
+			-fx-font-weight: bold;		
+			
+}
+
+
+.button{
+    -fx-font-weight: bold;
+    -fx-background-color: #FFD700 ;
+    -fx-text-fill: black ;
+	 -fx-background-radius: 22;
+	-fx-font-size: 20;
+	-fx-border-width: 3;
+}
+
+.button:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color: red;
+    -fx-font-size: 20;
+    -fx-background-radius: 22;
+    -fx-text-fill: #006666 ;
+    -fx-border-color: #006666;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+#retour{
+ -fx-font-weight: bold;
+    -fx-background-color: red;
+    
+    -fx-font-size: 20;
+    -fx-background-radius: 22;
+    -fx-text-fill: #006666 ;
+    -fx-border-color: #006666;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;	
+	 -fx-text-fill: white;
+}
+#retour:pressed{
+	 -fx-font-weight: bold;
+    -fx-background-color: #FFD700 ;
+    -fx-text-fill: black ;
+	 -fx-background-radius: 22;
+	-fx-font-size: 20;
+	-fx-border-width: 3;
+	-fx-text-fill: black;
+}
+#erreur {
+			-fx-font-family: "Arial ";
+			-fx-text-fill:	gold ;
+			-fx-font-size: 40 px;
+			-fx-font-weight: bold;	
+			-fx-text-fill : red;
+}
+#message {
+			-fx-font-family: "Arial ";
+			-fx-text-fill:	gold ;
+			-fx-font-size: 45 px;
+			-fx-font-weight: bold;	
+			-fx-text-fill : black;
+}
+

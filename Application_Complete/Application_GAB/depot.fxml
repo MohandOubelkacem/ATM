@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BpDepot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.depotController">
+   <center>
+      <TextField fx:id="montantDeposer" alignment="CENTER" prefHeight="60.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="150.0" left="400.0" right="400.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </TextField>
+   </center>
+   <top>
+      <Label prefHeight="207.0" prefWidth="1000.0" text="Entrer le montant souhaité à déposer" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="150.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <right>
+      <Button fx:id="valider" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onValide" prefHeight="50.0" prefWidth="120.0" text="VALIDER" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets right="20.0" top="120.0" />
+         </BorderPane.margin>
+      </Button>
+   </right>
+   <left>
+      <Button fx:id="retour" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onRetour" prefHeight="50.0" prefWidth="120.0" text="RETOUR" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="20.0" top="120.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </left>
+</BorderPane>
